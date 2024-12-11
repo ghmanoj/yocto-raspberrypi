@@ -1,0 +1,8 @@
+meta-openembedded/
+meta-swupdate/
+meta-raspberrypi/
+poky
+
+.vscode/
+build/cache
+build/*.log
