@@ -1,8 +1,10 @@
-meta-openembedded/
-meta-swupdate/
-meta-raspberrypi/
-poky
-
 .vscode/
 build/cache
 build/*.log
+build/*.lock
+build/*.sock
+
+meta-openembedded/
+meta-raspberrypi/
+meta-swupdate/
+poky/

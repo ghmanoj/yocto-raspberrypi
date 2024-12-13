@@ -9,6 +9,7 @@ SRC_URI = "\
     file://emmcsetup.lua \
     file://sw-description \
 "
+
 # images to build before building swupdate image
 IMAGE_DEPENDS = "speedy-oe-image"
 

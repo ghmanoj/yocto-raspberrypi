@@ -6,9 +6,9 @@ RECIPE_MAINTAINER = "Manoj"
 
 LICENSE = "MIT"
 
-IMAGE_FSTYPES = "wic wic.bmap ext4.gz"
-IMAGE_OVERHEAD_FACTOR = "1.1"
+WKS_FILE = "speedy-sdcard.wks"
 
+IMAGE_FSTYPES = "wic wic.bmap ext4.gz"
 
 IMAGE_FEATURES:append = "\
     allow-root-login \
@@ -19,35 +19,33 @@ IMAGE_FEATURES:append = "\
 "
 
 IMAGE_INSTALL:append = "\
-    bcm2835-tests \
-    libubootenv \
+    networkmanager \
+    networkmanager-nmcli \
+    networkmanager-config \
+    lua \
     swupdate \
     swupdate-www \
-    os-release \
-    raspi-gpio \
+    swupdate-progress \
+    swupdate-client \
+    swupdate-tools-ipc \
+    u-boot-fw-utils \
+    json-c \
     ntp \
     ntp-utils \
-    rpio \
     rpi-gpio \
-    pi-blaster \
     i2c-tools \
-    setserial \
     util-linux \
     libxml2 \
     strace \
-    tzdata \
     openssh \
     openssh-sshd \
     zeromq \
-    cppzmq-dev \
     htop \
     tmux \
     curl \
     bash \
     rt-tests \
     stress-ng \
-    devmem2 \
-    ifupdown \
     jsoncpp \
     brotli \
 "
