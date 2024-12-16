@@ -1,0 +1,5 @@
+FILESEXTRAPATHS:append := "${THISDIR}/${PN}:"
+
+PACKAGECONFIG_CONFARGS = ""
+
+DEPENDS += " openssl"

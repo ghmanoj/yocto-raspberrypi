@@ -7,4 +7,5 @@ build/*.sock
 meta-openembedded/
 meta-raspberrypi/
 meta-swupdate/
+meta-swupdate-speedy/
 poky/

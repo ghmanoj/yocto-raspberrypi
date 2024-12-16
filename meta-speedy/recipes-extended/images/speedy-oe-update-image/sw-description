@@ -9,10 +9,10 @@ software =
 				images: (
 					{
 						filename = "speedy-oe-image.ext4.gz";
+						sha256 = "$swupdate_get_sha256(speedy-oe-image.ext4.gz)";
 						type = "raw";
 						compressed = "zlib";
 						device = "/dev/mmcblk0p2";
-						sha256 = "$swupdate_get_sha256(speedy-oe-image.ext4.gz)";
 					}
 				);
 				bootenv: (
@@ -30,10 +30,10 @@ software =
 				images: (
 					{
 						filename = "speedy-oe-image.ext4.gz";
+						sha256 = "$swupdate_get_sha256(speedy-oe-image.ext4.gz)";
 						type = "raw";
 						compressed = "zlib";
 						device = "/dev/mmcblk0p3";
-						sha256 = "$swupdate_get_sha256(speedy-oe-image.ext4.gz)";
 					}
 				);
 				bootenv: (
