@@ -21,7 +21,6 @@ IMAGE_INSTALL:append = "\
     networkmanager-config \
     swupdate \
     speedy-swupdate-hwcompat \
-    u-boot-fw-utils \
     parted \
     json-c \
     ntp \
